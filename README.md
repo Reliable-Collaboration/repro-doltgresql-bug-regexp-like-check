@@ -9,6 +9,8 @@ ERROR:  at or near "as": syntax error
 
 PostgreSQL 18.6 stores a row that satisfies the check and refuses one that does not.
 
+Reported upstream: https://github.com/dolthub/doltgresql/issues/3333
+
 ## Reproduce it
 
 You need Docker and a POSIX shell: Linux, macOS, or Windows with WSL. The first run downloads the images.
